@@ -1,0 +1,151 @@
+{
+  "color": {
+    "brand": {
+      "blue": {
+        "primary": {
+          "type": "color",
+          "value": "#3ea9dfff",
+          "blendMode": "normal"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "#6dc3f0ff",
+          "blendMode": "normal"
+        }
+      },
+      "pink": {
+        "primary": {
+          "type": "color",
+          "value": "#e42573ff",
+          "blendMode": "normal"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "#e652a3ff",
+          "blendMode": "normal"
+        }
+      },
+      "yellow": {
+        "primary": {
+          "type": "color",
+          "value": "#fbcb47ff",
+          "blendMode": "normal"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "#f4dc63ff",
+          "blendMode": "normal"
+        }
+      },
+      "green": {
+        "primary": {
+          "type": "color",
+          "value": "#96bf32ff",
+          "blendMode": "normal"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "#a8cd00ff",
+          "blendMode": "normal"
+        }
+      },
+      "orange": {
+        "primary": {
+          "type": "color",
+          "value": "#f1911fff",
+          "blendMode": "normal"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "#eba522ff",
+          "blendMode": "normal"
+        }
+      }
+    },
+    "neutral": {
+      "100": {
+        "type": "color",
+        "value": "#f9f9fcff",
+        "blendMode": "normal"
+      },
+      "300": {
+        "type": "color",
+        "value": "#e7eef0ff",
+        "blendMode": "normal"
+      },
+      "500": {
+        "type": "color",
+        "value": "#969a9bff",
+        "blendMode": "normal"
+      },
+      "800": {
+        "type": "color",
+        "value": "#232020ff",
+        "blendMode": "normal"
+      }
+    },
+    "text": {
+      "primary": {
+        "type": "color",
+        "value": "{color.mode 1.neutral.800}"
+      },
+      "secondary": {
+        "type": "color",
+        "value": "{color.mode 1.neutral.500}"
+      },
+      "inverse": {
+        "type": "color",
+        "value": "#ffffffff",
+        "blendMode": "normal"
+      }
+    },
+    "bg": {
+      "primary": {
+        "type": "color",
+        "value": "{color.mode 1.neutral.100}"
+      }
+    },
+    "border": {
+      "primary": {
+        "type": "color",
+        "value": "{color.mode 1.neutral.300}"
+      }
+    }
+  },
+  "spacing": {
+    "md": {
+      "type": "dimension",
+      "value": 8
+    },
+    "lg": {
+      "type": "dimension",
+      "value": 16
+    },
+    "xl": {
+      "type": "dimension",
+      "value": 32
+    },
+    "sm": {
+      "type": "dimension",
+      "value": 4
+    },
+    "xs": {
+      "type": "dimension",
+      "value": 2
+    }
+  },
+  "radius": {
+    "md": {
+      "type": "dimension",
+      "value": 8
+    },
+    "sm": {
+      "type": "dimension",
+      "value": 4
+    },
+    "lg": {
+      "type": "dimension",
+      "value": 16
+    }
+  }
+}
