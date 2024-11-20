@@ -1,0 +1,26 @@
+{
+    "source": ["tokens/*.json"],
+    "platforms": {
+      "css": {
+        "transforms": ["attribute/cti", "size/px", "name/kebab", "color/css"],
+        "buildPath": "build/",
+        "files": [
+          {
+            "destination": "tokens.css",
+            "format": "css/variables",
+            "options": {
+              "outputReferences": true
+            }
+          }
+        ]
+      },
+      "js": {
+        "transforms": ["attribute/cti","name/pascal", "color/hex"],
+        "buildPath": "build/",
+        "files": [{
+          "destination": "tokens.js",
+          "format": "javascript/module"
+        }]
+      }
+    }
+  }
